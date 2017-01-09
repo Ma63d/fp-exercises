@@ -1,0 +1,17 @@
+{
+  "name": "fp-exercises",
+  "version": "0.0.1",
+  "description": "This is a series of exercises of functional programming.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha *.spec.js",
+    "lint": "eslint *.js",
+    "lint-fix": "eslint --fix *.js"
+  },
+  "author": "chuck liu (http://chuckliu.me)",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}

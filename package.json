@@ -4,9 +4,7 @@
   "description": "This is a series of exercises of functional programming.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha *.spec.js",
-    "lint": "eslint *.js",
-    "lint-fix": "eslint --fix *.js"
+    "test": "mocha */*spec.js"
   },
   "author": "chuck liu (http://chuckliu.me)",
   "license": "ISC",
@@ -16,6 +14,7 @@
   },
   "dependencies": {
     "accounting": "^0.4.1",
+    "data.task": "^3.1.1",
     "ramda": "^0.23.0"
   }
 }
